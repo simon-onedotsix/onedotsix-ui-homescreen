@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $ui-font-size;
+  color: $ui-font-size;
+  font-family: sans-serif;
+}
+
+body {
+
+  background-color: rgb(255, 134, 40);
+
+  @include tablet-portrait-up {
+    background-color: #aaa;
+  }
+  @include tablet-landscape-up {
+    background-color: #999;
+  }
+  @include desktop-up {
+    background-color: #666;
+  }
+  @include desktop-hd-up {
+    background-color: #333;
+  }
+}
